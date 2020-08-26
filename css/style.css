@@ -1,0 +1,12 @@
+
+
+.img{
+    opacity: 0.5;
+    width: 200px;
+    height: 300px;
+    background-color: goldenrod;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
