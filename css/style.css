@@ -10,3 +10,13 @@
   img:hover {
     opacity: 1.0;
   }
+
+  /* demo style */
+  #demo{
+    padding: 10px;
+    margin: 8px auto;
+
+    text-align: center;
+    background-color: #badd85;
+    display: inline-block;
+  }

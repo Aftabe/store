@@ -23,4 +23,5 @@ switch (new Date().getDay()) {
     day = "Saturday";
 }
 document.getElementById("demo").innerHTML = "Today is " + day;
+alert('today is ' + day);
 }());
