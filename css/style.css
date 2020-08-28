@@ -15,8 +15,13 @@
   #demo{
     padding: 10px;
     margin: 8px auto;
-
+    margin-left: 42%;
     text-align: center;
     background-color: #badd85;
     display: inline-block;
+  }
+
+  body h1{
+    text-transform: uppercase;
+    text-align: center;
   }
