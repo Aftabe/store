@@ -1,6 +1,12 @@
 // First code block
 (function () {
-  let day;
+  let day,
+  name = document.createElement('div');
+  name.classList = 'style';
+  name.innerText = 'Khadim';
+
+  const mod = name;
+
   switch (new Date().getDay()) {
     case 0:
       day = "Sunday";
@@ -15,19 +21,20 @@
       day = "Wednesday";
       break;
     case 4:
-      day = "Thursday";
+      day = `Thursday Ali can cook something for dinner`;
       break;
     case 5:
       day = "Friday";
       break;
     case 6:
-      day = "Saturday";
+      day = `Saturday ${mod.innerText} can clean the house`;
   }
   document.getElementById("demo").innerHTML = "Today is " + day;
   alert('today is ' + day);
 }());
 
 // Second code block
+// HOW TO CHANGE JSON TEXT TO JAVASCRIPT OBJECT
 (function(){
   var text = '{"employees":[' +
 '{"firstName":"Ali","lastName":"Sdafi" },' +
