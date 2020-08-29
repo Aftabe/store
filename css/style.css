@@ -30,3 +30,8 @@
     background-color: red;
     padding: 10px;
   }
+
+  .style{
+    color: green !important;
+    font-size: 30px;
+  }
