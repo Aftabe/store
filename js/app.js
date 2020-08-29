@@ -2,10 +2,13 @@
 (function () {
   let day,
   name = document.createElement('div');
-  name.classList = 'style';
+  name.className = 'style';
+  name.id = 'style';
   name.innerText = 'Khadim';
 
   const mod = name;
+
+  console.log(mod);
 
   switch (new Date().getDay()) {
     case 0:
