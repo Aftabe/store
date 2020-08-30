@@ -1,41 +1,15 @@
-
-
-.img{
-    opacity: 0.5;
-    width: 200px;
-    height: 300px;
-    background-color: goldenrod;
-  }
   
-  img:hover {
-    opacity: 1.0;
-  }
-
-  /* demo style */
-  #demo{
-    padding: 10px;
-    margin: 8px auto;
-    margin-left: 42%;
-    text-align: center;
-    background-color: #badd85;
-    display: inline-block;
-  }
-
   body h1{
     text-transform: uppercase;
     text-align: center;
   }
 
-  #test{
-    background-color: red;
+   /* demo style */
+   #demo{
     padding: 10px;
-  }
-
-  .style{
-    color: green !important;
-    font-size: 30px;
-  }
-
-  #style{
-    color: green;
+    margin: 8px auto;
+    margin-left: 45%;
+    text-align: center;
+    background-color: #badd85;
+    display: inline-block;
   }
