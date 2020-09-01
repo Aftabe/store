@@ -3,7 +3,7 @@
   var text = '{"employees":[' +
     '{"firstName":"John","Job":"Cooking dinner" },' +
     '{"firstName":"Anna","Job":"Cleaning house" },' +
-    '{"firstName":"Anna","Job":"Shopping" },' +
+    '{"firstName":"Anna","Job":" is going to shopping" },' +
     '{"firstName":"Anna","Job":"Cleaning house" },' +
     '{"firstName":"Anna","Job":"Cooking dinner" },' +
     '{"firstName":"Peter","Job":"Free" }]}';
@@ -21,7 +21,7 @@
       console.log(day);
       break;
     case 2:
-      day = "Tuesday " + obj.employees[2].firstName + " " + obj.employees[2].Job;
+      day = "Tuesday, " + obj.employees[2].firstName + " " + obj.employees[2].Job;
       break;
     case 3:
       day = "Wednesday " + obj.employees[3].firstName + " " + obj.employees[3].Job;
