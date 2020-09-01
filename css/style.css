@@ -57,6 +57,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all .3s ease-out;
   }
   
   li a:hover:not(.active) {
@@ -105,4 +106,9 @@
   /* fab */
   .banner-footer-icon{
     color: #919c99;
+    transition: all .3s ease-out;
+  }
+
+  .banner-footer-icon:hover{
+    color:  #717977;
   }
