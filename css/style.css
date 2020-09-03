@@ -125,10 +125,20 @@
   }
 
   /* buttons */
-  /* .normal{
+  .normal{
+    background-color: white;
+  }
+  .change{
     background-color: rgb(128, 128, 128);
   }
 
-  .change{
-    background-color: white;
-  } */
+  /* newBanner */
+  .newBanner{
+    background-color: #c9ab25;
+    min-height: 95vh;
+    color: white;
+  }
+
+
+
+
