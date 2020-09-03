@@ -105,10 +105,10 @@
 
   /* fab */
   .banner-footer-icon{
-    color: #919c99;
+    color:  #686e6d;
     transition: all .3s ease-out;
   }
-
+  
   .banner-footer-icon:hover{
-    color:  #717977;
+    color: #919c99;
   }
