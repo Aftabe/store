@@ -10,6 +10,8 @@
 
 #919c99
 
+#904b06
+
 */
 
 
@@ -24,8 +26,9 @@
    #demo{
     padding: 10px;
     margin: 8px auto;
-    background-color: #badd85;
+    background-color:#b16214;
     text-transform: capitalize;
+    color: white;
   }
 
   /* banner */
@@ -112,3 +115,20 @@
   .banner-footer-icon:hover{
     color: #919c99;
   }
+
+  /* btn */
+  .btn{
+    outline: none !important;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 77px;
+  }
+
+  /* buttons */
+  /* .normal{
+    background-color: rgb(128, 128, 128);
+  }
+
+  .change{
+    background-color: white;
+  } */
