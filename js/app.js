@@ -40,13 +40,16 @@
   alert(day);
 }());
 
-// (function(){
-//   const buttons = document.getElementsByClassName('btn');
-  
-//   for(let i = 0, len = buttons.length; i < len; i + 1){
-//     buttons[i].onclick = function(){
-//       let className = this.innerHTML.toLowerCase();
-//       document.body.className = className;
-//     }
-//   }
-// }());
+(function(){
+  const buttons = document.getElementsByClassName('btn');
+  let banner = document.getElementById('banner');
+  for(var i = 0, len = buttons.length; i < len; i++){
+    buttons[i].onclick = function(){
+      let className = this.innerHTML.toLowerCase();
+      document.body.className = className;
+      banner.classList = 'newBanner';
+    }
+  }
+}());
+
+
