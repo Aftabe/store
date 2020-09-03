@@ -39,3 +39,14 @@
   document.getElementById('demo').innerHTML = "today is " + day;
   alert(day);
 }());
+
+// (function(){
+//   const buttons = document.getElementsByClassName('btn');
+  
+//   for(let i = 0, len = buttons.length; i < len; i + 1){
+//     buttons[i].onclick = function(){
+//       let className = this.innerHTML.toLowerCase();
+//       document.body.className = className;
+//     }
+//   }
+// }());
