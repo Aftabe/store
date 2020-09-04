@@ -42,12 +42,12 @@
 
 (function(){
   const buttons = document.getElementsByClassName('btn');
-  let banner = document.querySelector('.banner');
+  // let banner = document.querySelector('.banner');
   for(var i = 0, len = buttons.length; i < len; i++){
     buttons[i].onclick = function(){
       let className = this.innerHTML.toLowerCase();
       document.body.className = className;
-      banner.classList = 'newBanner';
+      // banner.classList = 'newBanner';
     }
   }
 }());
