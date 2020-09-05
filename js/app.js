@@ -48,8 +48,14 @@
       let className = this.innerHTML.toLowerCase();
       document.body.className = className;
       // banner.classList = 'newBanner';
-    }
+  }
   }
 }());
 
 
+// jQuery
+$(document).ready(function(){
+  $('h3').click(function(){
+    $('h1').hide();
+  })
+})
